@@ -1,0 +1,30 @@
+.App{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: gray;
+    top: 1px;
+  }
+
+ img
+ {
+     border-radius: 20px;
+     width: 290px;
+     transition: 0.5s
+ }
+ .dropdn{
+     display: none;
+     /* position: absolute;
+ 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1; */
+ }
+ img:hover 
+ {
+    transform: scale(1.2);
+    
+ }
